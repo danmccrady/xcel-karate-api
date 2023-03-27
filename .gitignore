@@ -1,0 +1,16 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build artifacts and cache files
+.build/
+.temp/
+.nyc_output/
+coverage/
+*.log
+
+# Ignore SAM build output
+.sam/
+
+# Ignore AWS credentials and configuration files
+.aws-sam/
+.aws-credentials
